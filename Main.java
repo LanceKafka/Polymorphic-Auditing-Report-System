@@ -11,7 +11,7 @@ public class Main {
             System.out.println("\n--- Add New Hardware Batch ---");
             System.out.print("Enter Type (1 for Laptop, 2 for Phone, 0 to Finish): ");
             int type = scanner.nextInt();
-            scanner.nextLine(); // consume newline
+            scanner.nextLine(); 
 
             if (type == 0) {
                 adding = false;
